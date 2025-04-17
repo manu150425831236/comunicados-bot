@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: comunicados-bot
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    plan: free
