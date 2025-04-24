@@ -49,6 +49,7 @@ def enviar_telegram(mensaje):
 
 # INICIO DEL BOT
 mantener_vivo()
+enviar_telegram("✅ Test de conexión: el bot sigue vivo y conectado a Telegram.")
 titulo_anterior, _ = obtener_ultimo_comunicado()
 print(f"📌 Último comunicado detectado: {titulo_anterior}")
 print("🔎 Iniciando monitoreo...")
